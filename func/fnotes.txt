@@ -1,0 +1,20 @@
+The stack pointer is %rsp
+% rsp points to the end of the stack
+add things onto the stack using push family
+ex: pushq
+What Does push do:
+decrements %rsp
+copes the value to loc specified by %rsp
+you can then pop off the stack
+see factorialstack.s for ex prog
+
+LOOSE COUPLING {
+
+We dont want to mess with registers
+we want it to be easy to add new things to the code
+without modifying previous things}
+
+We can reserve space on the stack
+we do this by subtradcting from the stack pointer rsp
+rsp is th
+
